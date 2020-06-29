@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/titou31dz/weatha/issues"
   },
-  "homepage": "https://github.com/titou31dz/weatha#readme"
+  "homepage": "https://github.com/titou31dz/weatha#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fetch-node": "0.0.1",
+    "node-fetch": "^2.6.0"
+  }
 }
